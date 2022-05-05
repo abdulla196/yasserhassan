@@ -37,9 +37,9 @@
 /* ------------------------
     Button
 ------------------------*/
-.btn{background:  #212529; color: #ffffff; padding: 12px 20px; position: relative; display: inline-block; cursor: pointer; outline: none; border: 0; vertical-align: middle; text-decoration: none;}
+.btn{background:  #A06936; color: #ffffff; padding: 12px 20px; position: relative; display: inline-block; cursor: pointer; outline: none; border: 0; vertical-align: middle; text-decoration: none;}
 .btn-sm { padding: 10px; color: #081b3a}
-.btn:hover { background: #A06936; color: #ffffff}
+.btn:hover { background: #1E8A31; color: #ffffff}
 .btn.focus, .btn:focus { box-shadow: none; color: #ffffff;}
 .btn + .btn{margin-left: 15px}
 .btn.btn-white{background: #ffffff; color: #081b3a;}
@@ -326,7 +326,7 @@ background: linear-gradient(to bottom, rgba(49,67,239,0) 0%, rgba(49,67,239,0.9)
 .featured-item .featured-icon{display:inline-block; margin-bottom:20px; overflow: hidden; font-size:60px; line-height:60px; color: #be8958;}
 .featured-item .featured-icon i{ display:inline-block; }
 .featured-desc p{margin-bottom: 0;}
-.featured-title h5{margin-bottom: 15px; text-transform: capitalize;color: #bc834e;}
+.featured-title h5{margin-bottom: 0; text-transform: capitalize;color: #bc834e;}
 .dark-bg .featured-title h5, .dark-bg .featured-desc, .theme-bg .featured-title h5, .theme-bg .featured-desc, .theme-bg .featured-icon i{color: #bc834e}
 .featured-item:hover .featured-icon i { -webkit-animation: toTopFromBottom 0.9s forwards; -moz-animation: toTopFromBottom 0.9s forwards; animation: toTopFromBottom 0.9s forwards; color: #fd5b03; }
 

@@ -167,12 +167,12 @@ span,
 /*--Header top--*/
 .topbar-link h6{font-size: 14px; font-weight: normal; margin-bottom: 0;}
 .topbar-link a, .topbar-link p{color: #7f7f7f; font-weight: 500;}
-.topbar-link i{margin-right: 10px; color: #be8958; font-size: 30px; vertical-align: middle;}
+.topbar-link i,.topbar-link img{margin-right: 10px; color: #be8958; font-size: 30px; vertical-align: middle;}
 .topbar-link a:hover{color: #fff}
 .header-top {border-bottom: 1px solid #eeecf7;}
 .header-top .social-icons li { margin: 0;}
 .header-middle{padding: 5px 0;}
-.language-selection button{box-shadow: none; border:none; background: none; color: #7f7f7f; font-size: 14px; padding: 0;}
+.language-selection button{box-shadow: none; border:none; background: none; color: #ffffff; font-size: 14px; padding: 0;}
 .language-selection .dropdown-menu{min-width: inherit; padding: 0;}
 .language-selection .dropdown-item{font-size: 14px; padding: 5px 15px}
 .language-selection .dropdown-toggle::after {vertical-align: middle;}
@@ -203,8 +203,8 @@ span,
 .cart a i {font-size: 30px; color: #ffffff; line-height: 30px;}
 
 /*--Header Main--*/
-.logo img { height: 90px; }
-.header { position: relative; width: 100%; z-index: 1200; }
+.logo img { height: 150px; }
+.header { position: relative; width: 100%; z-index: 1200;height: 27vh; }
 #header-wrap { position: relative; background: #A06936; }
 .header-2 #header-wrap, .header-3 #header-wrap{background: none}
 #header-wrap.fixed-header { position: fixed; top: 0; left: 0; width: 100%; z-index: 999 !important; background: #A06936; animation: smoothScroll 1s forwards;}
@@ -226,9 +226,9 @@ span,
 .nav-item.dropdown .dropdown-menu li:last-child{margin-bottom: 0;}
 .nav-item.dropdown .dropdown-menu a {display: inline-block; line-height: 2; white-space: nowrap; position: relative; background: none; color: #ffffff; font-size: 14px; font-weight: 400; }
 .nav-item.dropdown .dropdown-menu a:hover { color: #ffffff; }
-.nav-item.dropdown .dropdown-menu a::before { content: ""; width: 0; height: 1px; bottom: 0; position: absolute; left: auto; right: 0; -webkit-transition: width 0.6s cubic-bezier(0.25, 0.8, 0.25, 1) 0s; -o-transition: width 0.6s cubic-bezier(0.25, 0.8, 0.25, 1) 0s; transition: width 0.6s cubic-bezier(0.25, 0.8, 0.25, 1) 0s; background: #ffffff; }
+.nav-item.dropdown .dropdown-menu a::before { content: ""; width: 0; height: 1px; bottom: 0; position: absolute; left: auto; right: 0; -webkit-transition: width 0.6s cubic-bezier(0.25, 0.8, 0.25, 1) 0s; -o-transition: width 0.6s cubic-bezier(0.25, 0.8, 0.25, 1) 0s; transition: width 0.6s cubic-bezier(0.25, 0.8, 0.25, 1) 0s; background: #1E8A31; }
 .nav-item.dropdown .dropdown-menu a:hover::before { width: 100%; left: 0; right: auto; }
-
+.page-content{height: 31vh;}
 @media (min-width:992px) {
   .navbar-nav .dropdown-menu { min-width: 12em !important; max-width: 20em !important; }
   .navbar-nav .dropdown > .dropdown-menu { opacity: 0; position: absolute; display: block; pointer-events: none; background: #ffffff; }
@@ -245,6 +245,7 @@ span,
 }
 
 @media (max-width:991.98px) {
+  .page-content{height: auto;}
   .navbar-nav .dropdown-submenu .dropdown-menu { padding: 0; -webkit-box-shadow: none; box-shadow: none; top: 0; }
 }
 
@@ -273,7 +274,7 @@ span,
 
 @media (min-width:992px) {
 .header-2 .navbar-nav .nav-link:hover, .header-2 .navbar-nav .nav-item .nav-link.active{background: none; color: #fd5b03}
-.header-3 .navbar-nav .nav-link:hover, .header-3 .navbar-nav .nav-item .nav-link.active{background: #252525;}
+.header-3 .navbar-nav .nav-link:hover, .header-3 .navbar-nav .nav-item .nav-link.active{background: #1E8A31;}
 .header-2 .navbar-nav .nav-link {padding: 0 10px !important;}
 }
 
@@ -315,7 +316,7 @@ span,
 ------------------------*/
 .footer {position: relative; }
 .primary-footer {padding: 80px 0; position: relative; z-index: 99; font-size: 16px; color: rgba(255,255,255,0.8); }
-.secondary-footer {padding: 20px 0; font-weight: normal; }
+.secondary-footer {padding: 20px 0; font-weight: normal;position: absolute;bottom: 0;width: 100%; }
 .footer-logo img { height: 70px; }
 .media-icon.list-inline li { display: inline-block; }
 .media-icon li { margin-bottom: 25px; font-size: 16px; font-weight: 400; }
