@@ -117,12 +117,7 @@ section { padding: 20px 0; }
 }
 @media (min-width:2300px) {
     .fullscreen-banner{
-        height: 68vh;
-    }
-}
-@media (min-width:2600px) {
-    .fullscreen-banner{
-        height: 73vh;
+        height: 75vh;
     }
 }
 /* -------------------------------
