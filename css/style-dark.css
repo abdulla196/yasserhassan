@@ -105,14 +105,19 @@ section { padding: 20px 0; }
 [data-bg-img] { background-size: cover; background-position: center center; background-repeat: no-repeat; }
 .align-center { position: absolute; top: 50%; width: 100%; z-index: 9; }
 .fullscreen-banner .owl-carousel, .fullscreen-banner .owl-stage-outer, .fullscreen-banner .owl-stage, .fullscreen-banner .owl-item, .fullscreen-banner .item { height: 100%; }
-@media (min-height: 793px) {
+@media (min-height: 791px) {
     .fullscreen-banner{
-        height: calc(100% - 45vh)
+        height: calc(100% - 44vh)
     }
 }
 @media (min-height: 892px) {
     .fullscreen-banner{
-        height: calc(100% - 40vh)
+        height: calc(100% - 39vh)
+    }
+}
+@media (min-height: 951px) {
+    .fullscreen-banner{
+        height: calc(100% - 37vh)
     }
 }
 @media (min-height: 1070px) {
@@ -127,12 +132,23 @@ section { padding: 20px 0; }
 }
 @media (min-height: 1300px) {
     .fullscreen-banner{
-        height: calc(100% - 25vh)
+        height: calc(100% - 24.5vh)
     }
 }
-@media (min-height: 1600px) {
+
+@media (min-height: 1700px) {
     .fullscreen-banner{
-        height: calc(100% - 18vh)
+        height: calc(100% - 16.4vh)
+    }
+}
+@media (min-height: 2141px) {
+    .fullscreen-banner{
+        height: calc(100% - 16.4vh)
+    }
+}
+@media (min-height: 2700px) {
+    .fullscreen-banner{
+        height: calc(100% - 12.4vh)
     }
 }
 /* -------------------------------

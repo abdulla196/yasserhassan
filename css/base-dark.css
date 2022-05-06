@@ -228,9 +228,7 @@ span,
 .nav-item.dropdown .dropdown-menu a:hover { color: #ffffff; }
 .nav-item.dropdown .dropdown-menu a::before { content: ""; width: 0; height: 1px; bottom: 0; position: absolute; left: auto; right: 0; -webkit-transition: width 0.6s cubic-bezier(0.25, 0.8, 0.25, 1) 0s; -o-transition: width 0.6s cubic-bezier(0.25, 0.8, 0.25, 1) 0s; transition: width 0.6s cubic-bezier(0.25, 0.8, 0.25, 1) 0s; background: #1E8A31; }
 .nav-item.dropdown .dropdown-menu a:hover::before { width: 100%; left: 0; right: auto; }
-.page-content{    position: absolute;
-  bottom: 0;
-  width: 100%;
+.page-content{ 
   height: 168px;}
   
 
