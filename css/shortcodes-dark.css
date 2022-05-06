@@ -39,7 +39,7 @@
 ------------------------*/
 .btn{background:  #A06936; color: #ffffff; padding: 12px 20px; position: relative; display: inline-block; cursor: pointer; outline: none; border: 0; vertical-align: middle; text-decoration: none;}
 .btn-sm { padding: 10px; color: #081b3a}
-.btn:hover { background: #1E8A31; color: #ffffff}
+.btn:hover { background: #f00;color: #ffffff}
 .btn.focus, .btn:focus { box-shadow: none; color: #ffffff;}
 .btn + .btn{margin-left: 15px}
 .btn.btn-white{background: #ffffff; color: #081b3a;}
@@ -323,8 +323,9 @@ background: linear-gradient(to bottom, rgba(49,67,239,0) 0%, rgba(49,67,239,0.9)
     Featured Box
 ------------------------*/
 .featured-item{padding: 15px; position: relative; border-radius: .25rem}
-.featured-item .featured-icon{display:inline-block; margin-bottom:20px; overflow: hidden; font-size:60px; line-height:60px; color: #be8958;}
+.featured-item .featured-icon{overflow: hidden; font-size:48px;width: 32%;text-align: end; color: #be8958;}
 .featured-item .featured-icon i{ display:inline-block; }
+.featured-item .featured-title{width: 54%;}
 .featured-desc p{margin-bottom: 0;}
 .featured-title h5{margin-bottom: 0; text-transform: capitalize;color: #000000;}
 .dark-bg .featured-title h5, .dark-bg .featured-desc, .theme-bg .featured-title h5, .theme-bg .featured-desc, .theme-bg .featured-icon i{color: #bc834e}
@@ -352,7 +353,7 @@ background: linear-gradient(to bottom, rgba(49,67,239,0) 0%, rgba(49,67,239,0.9)
 
 /*** Style 5 ***/
 .owl-carousel .featured-item.style-5 { margin: 30px 20px; }
-.featured-item.style-5 { padding: 30px 40px; border-radius: .25rem; background: #ffffff; text-align: center; }
+.featured-item.style-5 { padding: 3px 0; border-radius: .25rem; background: #ffffff; text-align: center; }
 .featured-item.style-5:hover, .featured-item.style-5.active { background: #A06936; }
 .featured-item.style-5:hover .featured-title h5, .featured-item.style-5:hover .featured-desc, .featured-item.style-5:hover .featured-icon i, .featured-item.style-5.active .featured-title h5, .featured-item.style-5.active .featured-desc, .featured-item.style-5.active .featured-icon i { color: #ffffff }
 

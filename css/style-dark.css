@@ -101,7 +101,7 @@ section { padding: 20px 0; }
 /* ------------------------
     Banner
 ------------------------*/
-.fullscreen-banner { position: relative; min-height: 300px;height: 42vh;}
+.fullscreen-banner { position: relative; min-height: 300px;height: 48vh;}
 [data-bg-img] { background-size: cover; background-position: center center; background-repeat: no-repeat; }
 .align-center { position: absolute; top: 50%; width: 100%; z-index: 9; }
 .fullscreen-banner .owl-carousel, .fullscreen-banner .owl-stage-outer, .fullscreen-banner .owl-stage, .fullscreen-banner .owl-item, .fullscreen-banner .item { height: 100%; }
