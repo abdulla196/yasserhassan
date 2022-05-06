@@ -105,6 +105,11 @@ section { padding: 20px 0; }
 [data-bg-img] { background-size: cover; background-position: center center; background-repeat: no-repeat; }
 .align-center { position: absolute; top: 50%; width: 100%; z-index: 9; }
 .fullscreen-banner .owl-carousel, .fullscreen-banner .owl-stage-outer, .fullscreen-banner .owl-stage, .fullscreen-banner .owl-item, .fullscreen-banner .item { height: 100%; }
+@media (min-height: 793px) {
+    .fullscreen-banner{
+        height: calc(100% - 45vh)
+    }
+}
 @media (min-height: 892px) {
     .fullscreen-banner{
         height: calc(100% - 40vh)
@@ -120,14 +125,14 @@ section { padding: 20px 0; }
         height: calc(100% - 30vh)
     }
 }
-@media (min-height: 1200px) {
-    .fullscreen-banner{
-        height: calc(100% - 28vh)
-    }
-}
 @media (min-height: 1300px) {
     .fullscreen-banner{
         height: calc(100% - 25vh)
+    }
+}
+@media (min-height: 1600px) {
+    .fullscreen-banner{
+        height: calc(100% - 18vh)
     }
 }
 /* -------------------------------
