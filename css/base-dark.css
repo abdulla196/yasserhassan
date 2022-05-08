@@ -204,7 +204,7 @@ span,
 
 /*--Header Main--*/
 .logo img { height: 130px; }
-.header { position: relative; width: 100%; z-index: 1200;height: 185px; }
+.header { position: relative; width: 100%; z-index: 1200;height: 165px; }
 #header-wrap { position: relative; background: #A06936; }
 .header-2 #header-wrap, .header-3 #header-wrap{background: none}
 #header-wrap.fixed-header { position: fixed; top: 0; left: 0; width: 100%; z-index: 999 !important; background: #A06936; animation: smoothScroll 1s forwards;}
