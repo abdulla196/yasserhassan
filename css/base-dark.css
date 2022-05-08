@@ -203,7 +203,7 @@ span,
 .cart a i {font-size: 30px; color: #ffffff; line-height: 30px;}
 
 /*--Header Main--*/
-.logo img { height: 150px; }
+.logo img { height: 130px; }
 .header { position: relative; width: 100%; z-index: 1200;height: 185px; }
 #header-wrap { position: relative; background: #A06936; }
 .header-2 #header-wrap, .header-3 #header-wrap{background: none}
