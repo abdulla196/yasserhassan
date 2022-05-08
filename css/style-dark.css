@@ -129,6 +129,11 @@ section { padding: 20px 0; }
     .fullscreen-banner{
         height: calc(100% - 30vh)
     }
+    @media(max-width:952px){
+        .fullscreen-banner{
+            height: calc(100% - 40vh)
+        }
+    }
 }
 @media (min-height: 1300px) {
     .fullscreen-banner{
@@ -149,6 +154,18 @@ section { padding: 20px 0; }
 @media (min-height: 2700px) {
     .fullscreen-banner{
         height: calc(100% - 12.4vh)
+    }
+}
+@media(max-width:952px){
+    .page-wrapper{
+        min-height:100vh;
+        overflow: auto;
+    }
+    .social-icons li a{
+        
+    height: 28px;
+    width: 28px;
+    line-height: inherit;
     }
 }
 /* -------------------------------
