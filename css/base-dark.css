@@ -351,7 +351,11 @@ span,
   border-color: #A06936;
   background: #A06936;
 }
+.banner-slider.owl-carousel .owl-nav button.owl-prev, .banner-slider.owl-carousel .owl-nav button.owl-next{
+  
+  background: rgba(49, 67, 239, 0);
 
+}
 /* ------------------------
     Flat Icon
 ------------------------*/
