@@ -285,7 +285,7 @@ span,
 .header-3  #header-wrap.fixed-header{background: #0d092c}
 .header-3  #header-wrap.fixed-header .navbar{margin-bottom: 0;}
 
-.header-3 .navbar {background: #A06936; margin-bottom: -25px; padding-right: 30px;}
+.header-3 .navbar {background: #A06936; margin-bottom: -25px; padding-right: 10px;}
 .header-3 .topbar-link i,
 .header-4 .topbar-link i {font-size: 20px; color: #A06936}
 .header-4 .header-top{padding: 15px 0;}
