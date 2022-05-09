@@ -101,59 +101,59 @@ section { padding: 20px 0; }
 /* ------------------------
     Banner
 ------------------------*/
-.fullscreen-banner { position: relative; min-height: 300px;height: calc(100% - 49vh);}
+.fullscreen-banner { position: relative; min-height: 300px;height: calc(100% - 40vh);}
 [data-bg-img] { background-size: cover; background-position: center center; background-repeat: no-repeat; }
 .align-center { position: absolute; top: 50%; width: 100%; z-index: 9; }
 .fullscreen-banner .owl-carousel, .fullscreen-banner .owl-stage-outer, .fullscreen-banner .owl-stage, .fullscreen-banner .owl-item, .fullscreen-banner .item { height: 100%; }
-@media (min-height: 791px) {
-    .fullscreen-banner{
-        height: calc(100% - 44vh)
-    }
-}
-@media (min-height: 892px) {
-    .fullscreen-banner{
-        height: calc(100% - 39vh)
-    }
-}
-@media (min-height: 951px) {
+@media (min-height: 792px) {
     .fullscreen-banner{
         height: calc(100% - 36vh)
     }
 }
-@media (min-height: 1070px) {
+@media (min-height: 892px) {
     .fullscreen-banner{
         height: calc(100% - 32vh)
     }
 }
+@media (min-height: 951px) {
+    .fullscreen-banner{
+        height: calc(100% - 30vh)
+    }
+}
+@media (min-height: 1070px) {
+    .fullscreen-banner{
+        height: calc(100% - 27vh)
+    }
+}
 @media (min-height: 1100px) {
     .fullscreen-banner{
-        height: calc(100% - 33vh)
+        height: calc(100% - 30vh)
     }
     @media(max-width:952px){
         .fullscreen-banner{
-            height: calc(100% - 40vh)
+            height: calc(100% - 30vh)
         }
     }
 }
 @media (min-height: 1300px) {
     .fullscreen-banner{
-        height: calc(100% - 24.5vh)
+        height: calc(100% - 20vh)
     }
 }
 
 @media (min-height: 1700px) {
     .fullscreen-banner{
-        height: calc(100% - 16.4vh)
+        height: calc(100% - 13.7vh)
     }
 }
 @media (min-height: 2141px) {
     .fullscreen-banner{
-        height: calc(100% - 16.4vh)
+        height: calc(100% - 10.4vh)
     }
 }
 @media (min-height: 2700px) {
     .fullscreen-banner{
-        height: calc(100% - 12.4vh)
+        height: calc(100% - 10.4vh)
     }
 }
 @media(max-width:952px){
