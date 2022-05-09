@@ -117,17 +117,17 @@ section { padding: 20px 0; }
 }
 @media (min-height: 951px) {
     .fullscreen-banner{
-        height: calc(100% - 33vh)
+        height: calc(100% - 36vh)
     }
 }
 @media (min-height: 1070px) {
     .fullscreen-banner{
-        height: calc(100% - 31vh)
+        height: calc(100% - 32vh)
     }
 }
 @media (min-height: 1100px) {
     .fullscreen-banner{
-        height: calc(100% - 28vh)
+        height: calc(100% - 33vh)
     }
     @media(max-width:952px){
         .fullscreen-banner{
