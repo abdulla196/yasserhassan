@@ -346,7 +346,11 @@ span,
 .breadcrumb-item a { color: #081b3a }
 .breadcrumb-item.active, .breadcrumb-item a:hover { color: #A06936; }
 .page-title-pattern { bottom: 0; position: absolute; height: 120%; width: 100%; opacity: 0.1 }
-
+.owl-carousel .owl-nav button.owl-prev:hover, .owl-carousel .owl-nav button.owl-next:hover, .banner-slider.owl-carousel .owl-nav button.owl-prev:hover, .banner-slider.owl-carousel .owl-nav button.owl-next:hover{
+  
+  border-color: #A06936;
+  background: #A06936;
+}
 
 /* ------------------------
     Flat Icon
