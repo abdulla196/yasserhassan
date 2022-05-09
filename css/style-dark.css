@@ -29,8 +29,8 @@
 /* ------------------------
     General
 ------------------------*/
-@import url('https://fonts.googleapis.com/css?family=Poppins:300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&display=swap');
-body {font-family: 'Poppins', sans-serif; font-weight: 400; font-style: normal; font-size: 15px; line-height: 1.5; color: #5f6368; overflow-x: hidden; }
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+body {font-family: 'Roboto', sans-serif;; font-weight: 400; font-style: normal; font-size: 15px; line-height: 1.5; color: #5f6368; overflow-x: hidden; }
 .page-wrapper{overflow: hidden;
     background: #000;height: 100vh;}
 /* ------------------------
@@ -42,7 +42,7 @@ h1 { font-size: 60px; font-style: normal; line-height: 70px; font-weight: 600; t
 h2 { font-size: 40px; font-style: normal; line-height: 50px; font-weight: 600; color: #081b3a; text-transform: capitalize; margin-bottom: 10px; position: relative; }
 h3 { font-size: 30px; font-style: normal; line-height: 40px; font-weight: 500; color: #081b3a; }
 h4 { font-size: 24px; font-style: normal; margin-bottom: 10px; font-weight: 500; line-height: 34px; color: #081b3a; }
-h5 { font-size: 22px; font-style: normal; margin-bottom: 10px; font-weight: 500; line-height: 26px; color: #081b3a; }
+h5 { font-size:16px; font-style: normal; margin-bottom: 10px; font-weight: 500; line-height: 26px; color: #081b3a; }
 h6 { font-size: 18px; font-style: normal; line-height: 24px; margin-bottom: 10px; color: #081b3a; }
 ul { margin: 0px; padding: 0px; }
 

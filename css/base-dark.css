@@ -171,7 +171,7 @@ span,
 .topbar-link a:hover{color: #fff}
 .header-top {border-bottom: 1px solid #eeecf7;}
 .header-top .social-icons li { margin: 0;}
-.header-middle{padding: 5px 0;}
+.header-middle{padding: 8px 0;}
 .language-selection button{box-shadow: none; border:none; background: none; color: #ffffff; font-size: 14px; padding: 0;}
 .language-selection .dropdown-menu{min-width: inherit; padding: 0;}
 .language-selection .dropdown-item{font-size: 14px; padding: 5px 15px}
@@ -203,7 +203,7 @@ span,
 .cart a i {font-size: 30px; color: #ffffff; line-height: 30px;}
 
 /*--Header Main--*/
-.logo img { height: 130px; }
+.logo img { height: 125px; }
 .header { position: relative; width: 100%; z-index: 1200;height: 165px; }
 #header-wrap { position: relative; background: #A06936; }
 .header-2 #header-wrap, .header-3 #header-wrap{background: none}
