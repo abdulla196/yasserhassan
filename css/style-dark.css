@@ -117,7 +117,7 @@ section { padding: 20px 0; }
 }
 @media (min-height: 951px) {
     .fullscreen-banner{
-        height: calc(100% - 37vh)
+        height: calc(100% - 33vh)
     }
 }
 @media (min-height: 1070px) {
