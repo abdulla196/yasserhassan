@@ -26,7 +26,7 @@
     Section Title
 ------------------------*/
 .section-title { margin-bottom: 50px; position: relative; }
-.section-title p { font-size: 16px; margin-bottom: 0;}
+.section-title p { font-size: 16px; margin-bottom: 0; color: #A06936;}
 .title { position: relative; margin-bottom: 0; }
 .dark-bg .title, .theme-bg .title, .theme-bg .section-title h6 { color: #ffffff }
 .section-title h6 {position: relative; display: inline-block; font-weight: 600; text-transform: uppercase; margin-bottom: 10px; color: #A06936;}
@@ -183,7 +183,7 @@
 .team-member .team-social-icon ul li a {height: 40px; border-radius: 50%; width: 40px; line-height: 40px; color: #ffffff; display: inline-block; text-align: center;}
 .team-member .team-social-icon ul li a:hover {background: #fd5b03; color: #ffffff;}
 .team-member img{width: 100%;}
-.team-member p{margin: 15px 0; color: #ffffff}
+.team-member p{margin: 15px 0; color: #A06936}
 
 .team-member.style-1 .team-description { margin: -40px 25px 0; padding: 14px 25px 15px; background-color: #fff !important; border-radius: .25rem; overflow: hidden; -webkit-transition: .5s cubic-bezier(.3, .58, .55, 1); transition: .5s cubic-bezier(.3, .58, .55, 1); z-index: 9; position: relative; }
 .team-member.style-1:hover .team-description { transform: translateY(-65px); }
